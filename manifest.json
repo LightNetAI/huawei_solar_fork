@@ -8,7 +8,8 @@
     "documentation": "https://github.com/wlcrs/huawei_solar/wiki",
     "issue_tracker": "https://github.com/wlcrs/huawei_solar/issues",
     "requirements": [
-        "huawei-solar>=3.0.7"
+        "huawei-solar @ git+https://github.com/ics/huawei-solar-lib-fork.git@main",
+        "tmodbus>=1.0.0"
     ],
     "codeowners": [
         "@wlcrs"
